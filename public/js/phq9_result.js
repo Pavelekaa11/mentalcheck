@@ -2,7 +2,7 @@ const scoreEl = document.getElementById("score");
 const levelEl = document.getElementById("level");
 const descEl = document.getElementById("description");
 
-const score = parseInt(localStorage.getItem("score")) || 0;
+const score = parseInt(localStorage.getItem("phq9_result")) || 0;
 scoreEl.innerText = score;
 
 let level = "";

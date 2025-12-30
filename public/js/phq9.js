@@ -84,8 +84,8 @@ function handleAnswer(value) {
     if (currentQuestion < questions.length) {
         renderQuestion();
     } else {
-        localStorage.setItem("score", score);
-        window.location.href = "/hasil";
+        localStorage.setItem("phq9_result", score);
+        window.location.href = "/hasil/phq9";
     }
 }
 

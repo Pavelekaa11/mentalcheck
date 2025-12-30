@@ -38,5 +38,5 @@
 
 </section>
 
-<script src="/js/result.js"></script>
+<script src="/js/phq9_result.js"></script>
 @endsection
