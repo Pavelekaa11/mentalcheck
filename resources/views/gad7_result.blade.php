@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="max-w-xl mx-auto px-4 py-12">
+<section class="max-w-xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
 
     <div class="bg-white p-6 rounded-xl shadow-sm text-center">
 
-        <h2 class="text-2xl font-bold mb-2">
+        <h2 class="text-xl sm:text-2xl font-bold">
             Hasil Tes Kecemasan
         </h2>
 
